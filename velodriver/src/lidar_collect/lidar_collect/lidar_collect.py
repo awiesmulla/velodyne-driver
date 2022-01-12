@@ -33,7 +33,7 @@ class lidar_collect(Node):
 			temp.append(coordinate)
 
 		temp = np.array(temp)
-		np.save('/destination/path/to/save/data'%(self.scan), temp)
+		np.save('destination/path/to/save/data'%(self.scan), temp)
 		self.scan = self.scan + 1
 
 def main(args=None):
