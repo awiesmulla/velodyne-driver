@@ -13,3 +13,7 @@ Run the following command to store the data
 
 ## Velodyne driver
 
+Be sure to check the velodyne LiDAR model before using the driver. Current driver is used for Velodyne VLP32 LiDAR.  
+To run all the nodes for corresponding use the following
+
+    ros2 launch velodyne 
