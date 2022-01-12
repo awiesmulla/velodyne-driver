@@ -6,7 +6,7 @@ The workspace contains two ROS foxy packages:
 
 ## lidar_collect
 
-Specify the destination path to store data in lidar_collect.py
+Specify the destination path to store data in lidar_collect.py  
 Run the following command to store the data
     
     ros2 run lidar_collect lidar_collect
